@@ -1,0 +1,61 @@
+/* Mobile first adjustments */
+@media only screen and (max‑width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .nav‑links {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .nav‑search {
+    width: 100%;
+    max‑width: none;
+    margin: 10px 0;
+  }
+
+  .panel {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .hero‑sec {
+    min‑height: 250px;
+  }
+
+  .hero‑statment {
+    left: 10px;
+    right: 10px;
+    bottom: 20px;
+    font-size: 16px;
+  }
+
+  .shop {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .box {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .footer .pages {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .last-panel-p {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+  }
+}
